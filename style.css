@@ -1,0 +1,43 @@
+.mobilephone{
+    width: 100%;
+    clear: both;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.img-desc{
+    width:20%;
+    float: left;
+}
+.mobilephone img{
+    
+    
+    width:100%;
+    height: 300px;
+}
+@media only screen and (max-width:700px){
+    
+    .mobilephone{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .img-desc{
+       
+        width: 50% !important;
+    }
+    .mobilephone img{
+        
+        width:100%;
+        height: 200px;
+       
+
+
+    }
+
+}
+#swaping{
+    width: 200px !important;
+    height: 200px;
+}
